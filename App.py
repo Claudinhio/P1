@@ -31,7 +31,7 @@ if build_scatter:
     st.write('Construir un gráfico de dispersión para las columnas año y precio')
     
     # Construir el gráfico de dispersión
-    fig_scatter = px.scatter(car_data, x="year", y="price", color="fuel")
+    fig_scatter = px.scatter(car_data, x="model_year", y="price", color="fuel")
     
     # Mostrar el gráfico Plotly interactivo
     st.plotly_chart(fig_scatter, use_container_width=True)
