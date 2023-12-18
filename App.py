@@ -5,7 +5,7 @@ import plotly.express as px
 import streamlit as st
 
 # Leer el archivo CSV del conjunto de datos en un DataFrame
-car_data = pd.read_csv('/Users/claudio.merino/Documents/nuevo_directorio1/proyecto_1/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # Encabezado de la aplicación
 st.header('Aplicación de Cuadro de Mandos para Datos de Vehículos')
